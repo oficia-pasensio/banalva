@@ -1,0 +1,338 @@
+/*Login*/
+form#login{
+
+	color: grey;
+	position: fixed;
+    top: 25%;
+	left: 40%;
+}
+
+/* PERFILBANALVA */
+#content caption{border-bottom-width:2px;border-style: outset;
+border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; }
+.albaranes{margin: 0 auto;border-bottom: 1px;border-style: outset;
+border-left-width: 0px; border-right-width: 0px; border-top-width: 0px;}
+.albaranes tbody{width: 100%; margin:0 auto; }
+.albaranes input{display: inline;}
+.albaranes td{border-bottom-width: 0px;}
+.tabla{
+
+
+
+	float:left;
+	padding-right:10%;
+	width:40%;
+
+}
+div.topright{
+	padding-bottom:3%;
+	width:40%;
+	float: left;
+
+
+}
+.submitt {
+	margin-left: 50%;	
+}
+#Nuevoarchivodiv{
+
+float:left;
+width:100%;
+
+}
+table.ficha{
+	margin-left: 4em;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-width: 0px;
+	border:2px inset;
+	font-size:1.5em;
+	text-align:right;
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 8%, rgba(245,245,245,1) 38%, rgba(237,237,237,1) 100%);
+	float:left;
+
+}
+td.resultados{
+
+		text-align:left;
+		padding-left: 20px;
+		border-left-style: inset;
+
+}
+
+/*links */
+.log{
+width:30%;
+margin-left:0%;
+margin-bottom:5px;
+text-decoration: none;
+ color: black;
+ font-weight: bold;
+ padding: 12px 20px;
+ font-size: 18px;
+ border-radius: 10px;
+ background-color: #FFFFFF;
+ box-shadow: 0 5px 5px #8C8C8C, 0 9px 0 #8C8C8C, 0px 9px 10px rgba(0,0,0,0.4), inset 0px 2px 9px rgba(255,255,255,0.2), inset 0 -2px 9px rgba(0,0,0,0.2);
+ border-bottom: 1px solid rgba(255,255,255,0.2);
+ display: inline-block;
+ font-family: Arial, Helvetica, sans;
+ text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+ float:right;
+ text-align:center;
+ transition: all .1s ease;
+ -webkit-transition-duration: 0.5s!important;
+ margin-right:15%;
+ }
+
+.log:hover {
+ box-shadow: 0 5px 5px #8C8C8C, 0 9px 0 #8C8C8C, 0px 9px 10px rgba(0,0,0,0.4), inset 0px 2px 15px rgba(255,255,255,0.4), inset 0 -2px 9px rgba(0,0,0,0.2);
+ color: #8C8C8C !important;
+	transform:scale(1.2,0.9);
+}
+
+.log:active {
+ top: 7px;
+ box-shadow: 0 2px 0 #8C8C8C, 0px 4px 4px rgba(0,0,0,0.4), inset 0px 2px 5px rgba(0,0,0,0.2);
+ color: black !important;
+}
+.atras{
+width:10%;
+margin-left:3%;
+text-decoration: none;
+ color: black;
+ font-weight: bold;
+ padding: 8px 9px;
+ font-size: 14px;
+ border-radius: 10px;
+ background-color: #FFFFFF;
+ box-shadow: 0 5px 5px #8C8C8C, 0 9px 0 #8C8C8C, 0px 9px 10px rgba(0,0,0,0.4), inset 0px 2px 9px rgba(255,255,255,0.2), inset 0 -2px 9px rgba(0,0,0,0.2);
+ border-bottom: 1px solid rgba(255,255,255,0.2);
+ display: inline-block;
+ font-family: Arial, Helvetica, sans;
+ text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+ float:clear;
+ text-align:center;
+ }
+
+.atras:hover {
+ box-shadow: 0 5px 5px #8C8C8C, 0 9px 0 #8C8C8C, 0px 9px 10px rgba(0,0,0,0.4), inset 0px 2px 15px rgba(255,255,255,0.4), inset 0 -2px 9px rgba(0,0,0,0.2);
+ color: #8C8C8C !important;
+}
+
+.atras:active {
+ top: 7px;
+ box-shadow: 0 2px 0 #8C8C8C, 0px 4px 4px rgba(0,0,0,0.4), inset 0px 2px 5px rgba(0,0,0,0.2);
+ color: black !important;
+}
+/*fin de links */
+form#formulario{
+	float:left;
+	margin-top:1%;
+	margin-left:5%;
+}
+form#NuevoArchivo{
+
+	padding-top: 5%;
+	clear:left;
+
+
+}
+table{
+/* ultimo cambio*/
+        
+	text-align:left;
+
+}
+caption{
+	text-decoration:none;
+	font-size: 1.2em;
+	margin-bottom: 2em;
+}
+td.enviararchivos{
+
+	padding: 1%;
+	text-align:left;
+}
+/* Otros Perfiles */
+.tabla3{
+
+
+
+	clear:both;
+	padding-right:10%;
+	width:70%;
+
+}
+
+/* Perfil */
+
+
+
+.tabla1{
+
+
+	width:20%;
+	float:left;
+	padding-right:50%;
+
+}
+table.ficha1{
+
+
+	font-size:1.5em;
+	text-align:right;
+         
+	float:left;
+
+}
+/* Editar o borrar */
+
+.edit{
+
+	margin-top:10%;
+	text-align:center;
+
+}
+
+#atencion{
+
+	color: red;
+
+
+}
+
+/* TABS ANIMADAS */
+#vacio{float:left; width: 100%;
+height:5em;}
+
+#container {
+	top: 30px;
+clear:both;
+ width: 80%; /* Ancho del contenedor */
+}
+
+#container input[type="radio"] {
+ height: 2.5em;
+ visibility: hidden;
+ }
+#container label {
+ background: #f9f9f9; /* Fondo de las pestañas */
+ border-radius: .25em .25em 0 0;
+ color: #888; /* Color del texto de las pestañas */
+ cursor: pointer;
+ display: block;
+ float:right;
+ font-size: 1em; /* Tamaño del texto de las pestañas */
+ height: 2.5em;
+ line-height: 2.5em;
+ margin-right: .25em;
+ padding: 0 1.5em;
+ text-align: center;
+}
+#container input:hover + label {
+ background: #ddd; /* Fondo de las pestañas al pasar el cursor por encima */
+ color: #666; /* Color del texto de las pestañas al pasar el cursor por encima */
+}
+#container input:checked + label {
+ background: #f1f1f1; /* Fondo de las pestañas al presionar */
+ color: #444; /* Color de las pestañas al presionar */
+ position: relative;
+ z-index: 6;
+}
+#content {
+ background: #f1f1f1; /* Fondo del contenido */
+ border-radius: 0 .25em .25em .25em;
+ min-height: 20em; /* Alto del contenido */
+ position: relative;
+ margin-left: 10%;
+ width: 100%;
+ z-index: 5;
+ -webkit-box-shadow: 0px 0px 20px 12px rgba(241,241,241,1);
+ -moz-box-shadow: 0px 0px 20px 12px rgba(241,241,241,1);
+ box-shadow: 0px 0px 20px 12px rgba(241,241,241,1);
+}
+#content div {
+	margin-left: 0%;
+ opacity: 0;
+ padding: 1.5em;
+ position: absolute;
+ z-index: -100;
+}
+#content-1 p {
+
+ clear: both;
+ margin-bottom: 1em;
+}
+#content-1 p.left img {
+ float: left;
+ margin-right: 1em;
+}
+#content-1 p.last {
+ margin-bottom: 0;
+}
+
+#content-1{width: 90%; clear:both;}
+#content-2{width:90%;  clear:both;}
+#content-3{width:90%;  clear: both;}
+
+/*#content-1 div.Factura {
+width:100%;
+float:left;
+
+
+	}
+#content-1 table.Factura{
+
+text-align:left;
+
+}
+
+#content-1 td.Factura{
+
+padding-top:1%;
+padding-bottom:1%;
+
+}
+#content-2 td.albaranes{
+
+padding-top:1%;
+padding-bottom:1%;
+
+}
+#content-2 div.albaranes {
+margin-top:3%;
+width:100%;
+float:left;
+
+	}
+#content-2 table.albaranes{
+
+text-align:left;
+
+}*/
+
+
+#content-2 p {
+ float: left;
+ width: 48.5%;
+}
+#content-2 p.column-right {
+ margin-left: 3%;
+}
+#content-2 p img {
+ display: block;
+ margin: 0 auto 1em auto;
+}
+#content-3 p,
+#content-3 ul {
+ margin-bottom: 1em;
+}
+#content-3 ul {
+ margin-left: 2em;
+}
+#container input#tab-1:checked ~ #content #content-1,
+#container input#tab-2:checked ~ #content #content-2,
+#container input#tab-3:checked ~ #content #content-3 {
+ opacity: 1;
+ z-index: 100;
+}
